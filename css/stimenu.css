@@ -1,0 +1,136 @@
+/*Sliding Text and Icon Menu Style*/
+.sti-menu{
+	width:1010px;
+	position:relative;
+	margin:60px auto 0 auto;
+}
+.sti-menu li{
+	float:left;
+	width:135px;
+	height:300px;
+	margin:1px;
+}
+.sti-menu li a{
+	display:block;
+	overflow:hidden;
+	background:#fff;
+	text-align:center;
+	height:80%;
+	width:100%;
+	position:relative;
+	-moz-box-shadow:1px 1px 2px #ddd;
+	-webkit-box-shadow:1px 1px 2px #ddd;
+	box-shadow:1px 1px 2px #ddd;
+}
+.sti-menu li a h2{
+	color:#333;
+	font-family: 'Karla', sans-serif;
+	font-size:16px;
+	text-transform:uppercase;
+	position:absolute;
+	padding:10px;
+	width:135px;
+	top:115px;
+	left:0px;
+	font-weight: 600;
+}
+.sti-menu li a h3{
+	font-family: 'Karla', sans-serif;
+	font-size:15px;
+	color: #111;
+	position:absolute;
+	top:150px;
+	left:0px;
+	width:155px;
+	padding:10px;
+	left: -11px;
+}
+.sti-icon{
+	width:100px;
+	height:100px;
+	position:absolute;
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-color:transparent;
+	left:20px;
+	top:30px;
+}
+.sti-icon-care{
+	background-image:url(../img/wifi1.png);
+}
+.sti-icon-alternative{
+	background-image:url(../img/tea1.png);
+}
+.sti-icon-family{
+	background-image:url(../img/print1.png);
+}
+.sti-icon-info{
+	background-image:url(../img/location1.png);
+}
+.sti-icon-technology{
+	background-image:url(../img/drawer1.png);
+}
+
+.sti-icon-sec{
+	background-image:url(../img/secu1.png);
+}
+
+.sti-icon-cour{
+	background-image:url(../img/cour1.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.more ul{
+	text-transform:uppercase;
+	font-size:13px;
+	padding:50px 0px 30px 20px;
+	height:30px;
+	clear:both;
+	font-family: 'Karla', sans-serif;
+	width:830px;
+	margin:0 auto;
+}
+.more ul li{
+	float:left;
+	margin:0px 2px;
+}
+.more ul li.selected a,
+.more ul li.selected a:hover{
+	background:#000;
+	color:#fff;
+	text-shadow:none;
+}
+.more ul li a{
+	text-shadow:1px 1px 1px #fff;
+	color:#555;
+	background:#f7f7f7;
+	padding:3px 6px;
+	-moz-box-shadow:1px 1px 2px #aaa;
+	-webkit-box-shadow:1px 1px 2px #aaa;
+	box-shadow:1px 1px 2px #aaa;
+}
+.more ul li a:hover{
+	background:#fff;
+	color:#fff;
+	text-shadow:none;
+}
+.content{
+	width:100%;
+	position:relative;
+}
+
+ol,ul {
+	list-style:none;
+}
